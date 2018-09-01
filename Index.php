@@ -8,7 +8,7 @@
 </head>
 <body>
   <h1 id="Name">
-  Hello World
+    Martin ist doof.
   </h1>
   <h2>
   Code
@@ -18,6 +18,6 @@
     echo $variable;
     ?>
     <p>
-    
+
 </body>
 </html>

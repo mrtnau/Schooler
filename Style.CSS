@@ -1,21 +1,37 @@
-*{
-margin:0px;
-padding:0px;
-}
 body {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 
-#logo {
-margin:0px auto;
-display:block;
+#header {
+    background-color: orange;
+    height : 100px;
 }
-header {
-width:100%;
-height:60px;
-background-color: #FF6A17;
+
+#menubar {
+    background-color: red;
+    height : 330px;
+    width: 100px;
+    position: absolute;
+    top : 100px;
+    left: 0;
 }
-#Downsize {
-width: 50px;
-height: 50px;
+
+#menubar ul {
+    display: blocK;
+    margin: 0;
+    padding: 0;
+}
+#menubar li {
+    display: block;
+    width : 100px;
+    height : 100px;
+    background-color: green;
+    margin-bottom: 10px;
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+#menubar li:hover {
+    background-color: blue;
+    transform: rotate(30deg);
 }
